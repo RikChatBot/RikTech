@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>RikTech AI</title>
+  <link rel="stylesheet" href="/style.css" />
+  <script src="https://kit.fontawesome.com/a2d9c3b1b1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="splash" class="splash">
+    <img src="/logo.svg" alt="RikTech" />
+    <h1>RikTech AI</h1>
+    <p>Companion & helper — built local & private</p>
+    <button id="enterBtn">Buka Aplikasi</button>
+  </div>
+
+  <div id="app" class="app hidden">
+    <header class="header">
+      <div class="brand">
+        <img src="/logo.svg" alt="RikTech" class="logo" />
+        <div class="title">RikTech <span class="sub">AI</span></div>
+      </div>
+      <div class="menu">
+        <div class="dropdown">
+          <button class="dropbtn"><i class="fa fa-bars"></i></button>
+          <div class="dropdown-content">
+            <a href="#" id="newConvo"><i class="fa fa-plus"></i> Percakapan Baru</a>
+            <a href="#" id="historyBtn"><i class="fa fa-history"></i> History</a>
+            <a href="#" id="settingsBtn"><i class="fa fa-cog"></i> Settings</a>
+            <a href="#" id="appInfoBtn"><i class="fa fa-info-circle"></i> Info Aplikasi</a>
+            <a href="#" id="devInfoBtn"><i class="fa fa-user"></i> Info Pengembang</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div id="chat" class="chat"></div>
+      <div class="composer">
+        <textarea id="input" placeholder="Tulis pesan..." rows="3"></textarea>
+        <button id="sendBtn" class="primary"><i class="fa fa-paper-plane"></i> Kirim</button>
+      </div>
+    </main>
+
+    <aside class="panel hidden" id="panel">
+      <h3 id="panelTitle">Panel</h3>
+      <div id="panelBody"></div>
+    </aside>
+
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+</html>
