@@ -1,0 +1,16 @@
+{
+    "name": "RikTech AI",
+    "short_name": "RikTechAI",
+    "description": "RikTech AI Assistant Application",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#2563eb",
+    "icons": [
+        {
+            "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkyIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xMiA0QzcuNTgyIDQgNCA3LjU4MiA0IDEyYzAgNC40MTggMy41ODIgOCA4IDhzOC0zLjU4MiA4LThjMC00LjQxOC0zLjU4Mi04LTgtOHptMCAxNGMtMy4zMTQgMC02LTIuNjg2LTYtNnMyLjY4Ni02IDYtNiA2IDIuNjg2IDYgNi0yLjY4NiA2LTYgNnoiIGZpbGw9IiMyNTYzZWIiLz48L3N2Zz4=",
+            "sizes": "192x192",
+            "type": "image/svg+xml"
+        }
+    ]
+}
