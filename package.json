@@ -1,0 +1,16 @@
+{
+  "name": "riktech-ai",
+  "version": "1.0.0",
+  "description": "RikTech AI Application",
+  "main": "public/index.html",
+  "scripts": {
+    "dev": "serve public",
+    "build": "echo 'No build process needed'"
+  },
+  "dependencies": {
+    "serve": "^14.2.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
